@@ -1,0 +1,357 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(217, 211, 210);
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+}
+
+.left-navbar {
+    border: solid red 2px;
+    display: flex;
+}
+
+.left-navbar li {
+    margin-left: 5em;
+    padding: 0;
+    font-size: 25px;
+}
+
+.logo {
+    width: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.main-navbar {
+    flex-direction: row;
+}
+
+.miUbicacion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main-header .main-navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(1, 7, 12);
+    padding: 10px 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.main-header .main-navbar a:hover {
+    background: rgb(217, 211, 210);
+    border-radius: 50px;
+}
+
+.miEtiquetaContacto {
+    align-self: center;
+    font-weight: bold;
+}
+
+.miBotonEnviar {
+    background: rgb(1, 27, 65);
+    font-size: large;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    color: aliceblue;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.miBotonEnviar:hover {
+    border-radius: 50px;
+    background: rgb(4, 110, 18);
+}
+
+.miContenedor {
+    display: flex;
+}
+
+.miForm {
+    position: relative;
+}
+
+.miContenedorUbicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.miContenedorUbicacion h3 {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.miContenedorUbicacion label {
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.containerHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/img/hero-background.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 225, 255, 0);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms smooth;
+    margin-bottom: 5px;
+}
+
+header nav a:hover {
+    border-bottom: 1px solid #fff;
+    transition: 0.9s;
+}
+
+.miLogo {
+    width: auto;
+    transition: all 0.3s;
+}
+
+.miLogo:hover {
+    transform: scale(0.7);
+}
+
+.misLinks {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* TEXTO DEL HERO */
+
+.hero .textoHero {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15rem;
+}
+
+.textoHero h1 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.textoHero h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: .5rem;
+}
+
+
+/* RESERVAS */
+
+.containerReservas {
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    border: 2px;
+    border-color: lightgrey;
+    margin: auto;
+    border-style: dashed;
+}
+
+.containerReservas h3 {
+    font-size: 1.3rem;
+    padding: 1.5rem 0;
+    color: antiquewhite;
+}
+
+.containerReservas hr {
+    width: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+}
+
+.containerReservas form {
+    margin: 0 auto;
+}
+
+.containerReservas ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.containerReservas li label {
+    margin-right: 2rem;
+    color: lightgray;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.containerReservas li label {
+    margin-right: 2rem;
+    color: lightgray;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.containerReservas form ul li select {
+    color: black;
+}
+
+.containerReservas form ul li option {
+    color: black;
+}
+
+#botonReservas {
+    margin: auto;
+    background-color: rgb(130, 18, 18);
+    color: whitesmoke;
+    font-size: medium;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 225, 255, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer nav {
+    float: right;
+}
+
+footer nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms smooth;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid #fff;
+    transition: 0.9s;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.miContenedorUbicacion select option {
+    color: black;
+}
+
+.miContenedorUbicacion select {
+    color: black;
+}
+
+.miFrame {
+    margin: 10px;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+#miFormContacto {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+#miClimaActual {
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#miCardClima {
+    background-color: rgb(167, 136, 58);
+    margin: 10px;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
